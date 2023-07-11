@@ -102,3 +102,16 @@
 .box-card .box-col-3 img{}
 .box-card .box-col-3 h5{}
 /* box css e */
+
+/* promotion section s */
+/* promotion section e*/
+
+/* instagram css s */
+.instagram-container{
+    display: flex;
+    justify-content: space-around;
+}
+.instagram-container .box-col-4{
+
+}
+/* instagram css e */
