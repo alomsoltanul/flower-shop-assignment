@@ -277,7 +277,7 @@
    
 }
 .deal-bg{
-    background-image: url("/Flower/Rectangle\ 9.png");
+    background-image: url("../Flower/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1100px;
