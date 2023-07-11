@@ -115,3 +115,42 @@
 
 }
 /* instagram css e */
+
+
+/* deals */
+
+.deals{
+   
+}
+.deal-bg{
+    background-image: url("/Flower/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    margin: 200px auto;
+    height: 300px;
+    
+
+}
+.deals .center{
+    text-align: center;
+}
+.deals .center .btn-lv{
+    padding: 18px 20px;
+    width: 120px;
+}
+.deals .center .btn{
+    
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 18px;
+    font-family: lato;
+    color: white;
+    border: 1px solid #E55473;
+}
+.deals .center .btn:hover{
+    color: #E55473;
+    border: 1px solid #E55473;
+    background: white;
+}
