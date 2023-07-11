@@ -3,4 +3,102 @@
     font-family: 'Belanosima', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+.container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+    height: 600px;
+    justify-content: space-between;
+}
+.container .text-container{
+    max-width: 660px;
+}
+.container .text-container h1{
+    color: #272727;
+    font-family: lato;
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+.container .text-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.container .text-container a{
+    text-decoration: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 18px;
+    font-family: lato;
+    color: white;
+    border: 1px solid #E55473;
+}
+.container .text-container a:hover{
+    color: #E55473;
+    border: 1px solid #E55473;
+    background: white;
+}
+.container .image-container img{
+    height: 400px;
+}
+
+
+/* Our Featured Flowers starts */
+.feats{
+    margin: 200px;
+    width: 1200px;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.featured-para{
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-container .featured-box{
+   
+}
+/* Our Featured Flowers ends */
+
+/* box css s */
+.box-card{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 1100px;
+    padding: 80px 30px;
+}
+.box-card .box-col-3{}
+.box-card .box-col-3 img{}
+.box-card .box-col-3 h5{}
+/* box css e */
