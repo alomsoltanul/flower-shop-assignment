@@ -153,18 +153,21 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 50px;
+    padding-bottom: 0px;
     
  }
  .img2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 50px 20px;
+    padding-bottom: 0px;
     
  }
  .img3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 50px;
+    padding-bottom: 0px;
  }
 
 .featured-box h5{
@@ -214,7 +217,9 @@
 /* box css e */
 
 /* promotion section s */
-.promotion-sec{}
+.promotion-sec{
+    padding: 0px;
+}
 .promotion-sec .pro-cent{
     text-align: center;
 }
@@ -247,12 +252,21 @@
 /* promotion section e*/
 
 /* instagram css s */
+.featured-title{
+    margin-top: 130px;
+}
 .instagram-container{
     display: flex;
     justify-content: space-around;
+    width: 900px;
+    margin: auto;
+    gap: 20px;
 }
 .instagram-container .box-col-4{
 
+}
+.instagram-container .box-col-4 img{
+    height: 300px;
 }
 /* instagram css e */
 
@@ -266,9 +280,10 @@
     background-image: url("/Flower/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1200px;
-    margin: 200px auto;
-    height: 300px;
+    max-width: 1100px;
+    margin: 100px auto;
+    height: 200px 100px;
+    padding: 50px 0;
     
 
 }
@@ -276,8 +291,11 @@
     text-align: center;
 }
 .deals .center .btn-lv{
-    padding: 18px 20px;
-    width: 120px;
+    padding: 22px 20px;
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    
+    /* width: 120px; */
 }
 .deals .center .btn{
     
@@ -293,6 +311,9 @@
     color: #E55473;
     border: 1px solid #E55473;
     background: white;
+}
+.deal-bg h3{
+    margin-top: 50px;
 }
 
 /* Footer */
@@ -327,4 +348,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 18px;
 }
