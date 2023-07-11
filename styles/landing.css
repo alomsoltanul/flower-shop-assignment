@@ -315,7 +315,16 @@
 .deal-bg h3{
     margin-top: 50px;
 }
-
+/* ABOUT SECTION (CREATIVE PART) */
+.about{
+    background-color: #0597A026;
+}
+.text-about{
+    text-align: right;
+}
+.img-about{
+    margin-right: 100px;
+}
 /* Footer */
 .footer-bg{
     background-color: black;
